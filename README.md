@@ -4,10 +4,6 @@ A third-party SMTP email provider for Strapi, tested with Gmail SMTP.
 ## Installation
 In the root directory of your project, run:
 
-```bash
-npm i strapi-provider-email-smtp
-```
-
 ## Configuration
 In your `config/plugins.js`, set the following:
 
