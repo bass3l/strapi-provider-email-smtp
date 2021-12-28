@@ -26,11 +26,11 @@ module.exports = ({ env }) => ({
         requireTLS: true,
         connectionTimeout: 1,
       },
+      settings: {
+        from: 'my.username@gmail.com',
+        replyTo: 'my.username@gmail.com',
+      }, 
     },
-    settings: {
-      from: 'my.username@gmail.com',
-      replyTo: 'my.username@gmail.com',
-    }, 
   },    
 });
 ```
