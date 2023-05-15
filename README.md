@@ -25,6 +25,7 @@ module.exports = ({ env }) => ({
         rejectUnauthorized: true,
         requireTLS: true,
         connectionTimeout: 1,
+	useAuth: true,
       },
     },
     settings: {
@@ -48,6 +49,7 @@ module.exports = ({ env }) => ({
       rejectUnauthorized: true,
       requireTLS: true,
       connectionTimeout: 1,
+      useAuth: true,
     },
     settings: {
       from: 'my.username@gmail.com',
